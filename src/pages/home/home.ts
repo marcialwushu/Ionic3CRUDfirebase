@@ -29,7 +29,7 @@ export class HomePage {
       .then(() => {
         this.toast.create({ message: 'Contato removido sucesso', duration: 3000 }).present();
       })
-      .catch((e) => {
+      .catch(() => {
         this.toast.create({ message: 'Erro ao remover o contato', duration: 3000 }).present();
       })
   }
