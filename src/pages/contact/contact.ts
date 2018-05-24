@@ -24,7 +24,7 @@ export class ContactPage {
   ) {
 
     this.contact = this.navParams.data.contact || {};
-    this.setupPageTitle();
+    this.createForm();
 
     this.setupPageTitle();
   }

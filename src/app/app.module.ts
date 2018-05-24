@@ -26,7 +26,8 @@ import { ContactProvider } from '../providers/contact/contact';
       projectId: "dataaluno-8f953",
       storageBucket: "dataaluno-8f953.appspot.com",
       messagingSenderId: "247803071705"
-    })
+    }),
+    AngularFireDatabaseModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
