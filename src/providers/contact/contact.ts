@@ -38,13 +38,13 @@ export class ContactProvider {
       } else {
         this.db.list(this.PATH)
           .push({ name: contact.name, tel: contact.tel })
-          .then((reuslt: any) => resolve(reuslt.key));
+          .then(() => resolve());
       }
     });
   }
 
   remove(key: string){
-
+    return this.db.list(this.PATH).remove(key);
   }
 
 }
