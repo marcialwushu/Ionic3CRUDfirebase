@@ -1,12 +1,8 @@
+import { ContactProvider } from './../../providers/contact/contact';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
-/**
- * Generated class for the ContactPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
@@ -15,11 +11,47 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ContactPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  title: string;
+  form: FormGroup;
+  contact: any;
+
+  constructor(
+    public navCtrl: NavController,
+    public navParams: NavParams,
+    private formBuilder: FormBuilder,
+    private provider: ContactProvider,
+    private toast: ToastController
+  ) {
+
+    this.contact = this.navParams.data.contact || {};
+    this.setupPageTitle();
+
+    this.setupPageTitle();
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ContactPage');
+  private setupPageTitle(){
+    this.title = this.navParams.data.contact ? 'Alterando contato' : 'Novo Contato';
   }
 
+  createForm(){
+    this.form = this.formBuilder.group({
+      key: [this.contact.key],
+      name: [this.contact.name, Validators.required],
+      tel: [this.contact.tel, Validators.required],
+    });
+  }
+
+  onSubmit(){
+    if (this.form.valid) {
+      this.provider.save(this.form.value)
+        .then(() => {
+          this.toast.create({ message: 'Contato salvo com sucesso.', duration: 3000 }).present();
+          this.navCtrl.pop();
+        })
+        .catch((e) => {
+          this.toast.create({ message: 'Erro ao salvar o contato', duration: 3000 }).present();
+          console.log(e);
+        })
+    }
+  }
 }
