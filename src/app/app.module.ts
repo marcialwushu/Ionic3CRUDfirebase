@@ -18,7 +18,15 @@ import { ContactProvider } from '../providers/contact/contact';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    AngularFireModule.initializeApp({
+      apiKey: "AIzaSyBoVfae9PX_jgTRgz4Ziwxb149uCO1mRcY",
+      authDomain: "dataaluno-8f953.firebaseapp.com",
+      databaseURL: "https://dataaluno-8f953.firebaseio.com",
+      projectId: "dataaluno-8f953",
+      storageBucket: "dataaluno-8f953.appspot.com",
+      messagingSenderId: "247803071705"
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
