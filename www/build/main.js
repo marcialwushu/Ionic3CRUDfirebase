@@ -1,1 +1,315 @@
-webpackJsonp([1],{159:function(n,l){function a(n){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+n+"'.")})}a.keys=function(){return[]},a.resolve=a,n.exports=a,a.id=159},191:function(n,l,a){function t(n){var l=u[n];return l?a.e(l[1]).then(function(){return a(l[0])}):Promise.reject(new Error("Cannot find module '"+n+"'."))}var u={"../pages/contact/contact.module.ngfactory":[385,0]};t.keys=function(){return Object.keys(u)},t.id=191,n.exports=t},268:function(n,l,a){"use strict";function t(n){return i._21(0,[(n()(),i.Z(0,0,null,null,2,"ion-nav",[],null,null,null,P.b,P.a)),i._15(6144,null,z.a,null,[w.a]),i.Y(2,4374528,null,0,w.a,[[2,O.a],[2,A.a],T.a,x.a,H.a,i.j,i.u,i.z,i.i,F.l,q.a,[2,B.a],I.a,i.k],{root:[0,"root"]},null),(n()(),i._19(-1,null,["\n"]))],function(n,l){n(l,2,0,l.component.rootPage)},null)}function u(n){return i._21(0,[(n()(),i.Z(0,0,null,null,36,"ion-item-sliding",[],null,null,null,$.b,$.a)),i.Y(1,49152,null,2,D.a,[[2,E.a],H.a,i.z,i.j,i.u],null,null),i._17(335544320,1,{item:0}),i._17(603979776,2,{_itemOptions:1}),(n()(),i._19(-1,null,["\n\n      "])),(n()(),i.Z(5,0,null,0,12,"ion-item",[["class","item item-block"]],null,null,null,L.b,L.a)),i.Y(6,1097728,[[1,4]],3,S.a,[V.a,x.a,i.j,i.z,[2,X.a]],null,null),i._17(335544320,3,{contentLabel:0}),i._17(603979776,4,{_buttons:1}),i._17(603979776,5,{_icons:1}),i.Y(10,16384,null,0,G.a,[],null,null),(n()(),i._19(-1,2,["\n        "])),(n()(),i.Z(12,0,null,2,1,"h1",[],null,null,null,null,null)),(n()(),i._19(13,null,["",""])),(n()(),i._19(-1,2,["\n        "])),(n()(),i.Z(15,0,null,2,1,"p",[],null,null,null,null,null)),(n()(),i._19(16,null,["",""])),(n()(),i._19(-1,2,["\n      "])),(n()(),i._19(-1,null,["\n\n      "])),(n()(),i.Z(19,0,null,1,16,"ion-item-options",[["side","left"]],null,null,null,null,null)),i.Y(20,16384,[[2,4]],0,U.a,[i.j,H.a],{side:[0,"side"]},null),(n()(),i._19(-1,null,["\n        "])),(n()(),i.Z(22,0,null,null,5,"button",[["color","secundary"],["ion-button",""]],null,[[null,"click"]],function(n,l,a){var t=!0;if("click"===l){t=!1!==n.component.editContact(n.context.$implicit)&&t}return t},J.b,J.a)),i.Y(23,1097728,null,0,K.a,[[8,""],x.a,i.j,i.z],{color:[0,"color"]},null),(n()(),i._19(-1,0,["\n          "])),(n()(),i.Z(25,0,null,0,1,"ion-icon",[["name","create"],["role","img"]],[[2,"hide",null]],null,null,null,null)),i.Y(26,147456,null,0,N.a,[x.a,i.j,i.z],{name:[0,"name"]},null),(n()(),i._19(-1,0,["\n        "])),(n()(),i._19(-1,null,["\n        "])),(n()(),i.Z(29,0,null,null,5,"button",[["color","danger"],["ion-button",""]],null,[[null,"click"]],function(n,l,a){var t=!0;if("click"===l){t=!1!==n.component.removeContact(n.context.$implicit.key)&&t}return t},J.b,J.a)),i.Y(30,1097728,null,0,K.a,[[8,""],x.a,i.j,i.z],{color:[0,"color"]},null),(n()(),i._19(-1,0,["\n          "])),(n()(),i.Z(32,0,null,0,1,"ion-icon",[["name","trash"],["role","img"]],[[2,"hide",null]],null,null,null,null)),i.Y(33,147456,null,0,N.a,[x.a,i.j,i.z],{name:[0,"name"]},null),(n()(),i._19(-1,0,["\n        "])),(n()(),i._19(-1,null,["\n      "])),(n()(),i._19(-1,null,["\n\n    "]))],function(n,l){n(l,20,0,"left");n(l,23,0,"secundary");n(l,26,0,"create");n(l,30,0,"danger");n(l,33,0,"trash")},function(n,l){n(l,13,0,l.context.$implicit.name);n(l,16,0,l.context.$implicit.tel);n(l,25,0,i._11(l,26)._hidden);n(l,32,0,i._11(l,33)._hidden)})}function o(n){return i._21(0,[(n()(),i.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),i.Y(1,16384,null,0,W.a,[x.a,i.j,i.z,[2,O.a]],null,null),(n()(),i._19(-1,null,["\n  "])),(n()(),i.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Q.b,Q.a)),i.Y(4,49152,null,0,nn.a,[T.a,[2,O.a],[2,A.a],x.a,i.j,i.z],{color:[0,"color"]},null),(n()(),i._19(-1,3,["\n    "])),(n()(),i.Z(6,0,null,3,2,"ion-title",[],null,null,null,ln.b,ln.a)),i.Y(7,49152,null,0,an.a,[x.a,i.j,i.z,[2,tn.a],[2,nn.a]],null,null),(n()(),i._19(-1,0,["\n      Contatos\n    "])),(n()(),i._19(-1,3,["\n  "])),(n()(),i._19(-1,null,["\n"])),(n()(),i._19(-1,null,["\n\n"])),(n()(),i.Z(12,0,null,null,23,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,un.b,un.a)),i.Y(13,4374528,null,0,on.a,[x.a,H.a,I.a,i.j,i.z,T.a,en.a,i.u,[2,O.a],[2,A.a]],null,null),(n()(),i._19(-1,1,["\n\n  "])),(n()(),i.Z(15,0,null,1,6,"ion-list",[],null,null,null,null,null)),i.Y(16,16384,null,0,E.a,[x.a,i.j,i.z,H.a,F.l,I.a],null,null),(n()(),i._19(-1,null,["\n    "])),(n()(),i.U(16777216,null,null,2,null,u)),i.Y(19,802816,null,0,rn.i,[i.I,i.F,i.p],{ngForOf:[0,"ngForOf"]},null),i._13(131072,rn.b,[i.g]),(n()(),i._19(-1,null,["\n  "])),(n()(),i._19(-1,1,["\n\n  "])),(n()(),i.Z(23,0,null,0,11,"ion-fab",[["button-right",""]],null,null,null,cn.b,cn.a)),i.Y(24,1228800,null,2,_n.a,[H.a],null,null),i._17(335544320,6,{_mainButton:0}),i._17(603979776,7,{_fabLists:1}),(n()(),i._19(-1,0,["\n    "])),(n()(),i.Z(28,0,null,0,5,"button",[["color","primary"],["ion-fab",""]],null,[[null,"click"]],function(n,l,a){var t=!0;if("click"===l){t=!1!==n.component.newContact()&&t}return t},sn.b,sn.a)),i.Y(29,49152,[[6,4]],0,dn.a,[x.a,i.j,i.z],{color:[0,"color"]},null),(n()(),i._19(-1,0,["\n      "])),(n()(),i.Z(31,0,null,0,1,"ion-icon",[["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),i.Y(32,147456,null,0,N.a,[x.a,i.j,i.z],{name:[0,"name"]},null),(n()(),i._19(-1,0,["\n    "])),(n()(),i._19(-1,0,["\n  "])),(n()(),i._19(-1,1,["\n"])),(n()(),i._19(-1,null,["\n"]))],function(n,l){var a=l.component;n(l,4,0,"primary");n(l,19,0,i._20(l,19,0,i._11(l,20).transform(a.contacts)));n(l,29,0,"primary");n(l,32,0,"add")},function(n,l){n(l,3,0,i._11(l,4)._hidden,i._11(l,4)._sbPadding);n(l,12,0,i._11(l,13).statusbarPadding,i._11(l,13)._hasRefresher);n(l,31,0,i._11(l,32)._hidden)})}Object.defineProperty(l,"__esModule",{value:!0});var e=a(41),i=a(0),r=(a(4),a(101),a(99)),c=a(100),_=a(67),s=a(117),d=a(69),f=function(){function n(n,l,a){this.navCtrl=n,this.provider=l,this.toast=a,this.contacts=this.provider.getAll()}return n.prototype.newContact=function(){this.navCtrl.push("ContactPage")},n.prototype.editContact=function(n){this.navCtrl.push("ContactPage",{contact:n})},n.prototype.removeContact=function(n){var l=this;this.provider.remove(n).then(function(){l.toast.create({message:"Contato removido sucesso",duration:3e3}).present()}).catch(function(){l.toast.create({message:"Erro ao remover o contato",duration:3e3}).present()})},n}(),p=function(){return function(n,l,a){this.rootPage=f,n.ready().then(function(){l.styleDefault(),a.hide()})}}(),m=function(){return function(){}}(),b=a(60),h=a(256),g=a(257),y=a(258),v=a(259),j=a(260),k=a(261),C=a(262),Y=a(263),Z=a(264),P=a(381),z=a(45),w=a(64),O=a(6),A=a(24),T=a(11),x=a(2),H=a(5),F=a(9),q=a(36),B=a(18),I=a(12),M=i.X({encapsulation:2,styles:[],data:{}}),R=i.V("ng-component",p,function(n){return i._21(0,[(n()(),i.Z(0,0,null,null,1,"ng-component",[],null,null,null,t,M)),i.Y(1,49152,null,0,p,[H.a,c.a,r.a],null,null)],null,null)},{},{},[]),$=a(382),D=a(82),E=a(53),L=a(147),S=a(19),V=a(17),X=a(48),G=a(70),U=a(81),J=a(40),K=a(23),N=a(38),W=a(102),Q=a(265),nn=a(32),ln=a(266),an=a(71),tn=a(50),un=a(267),on=a(28),en=a(31),rn=a(15),cn=a(383),_n=a(80),sn=a(384),dn=a(52),fn=a(72),pn=i.X({encapsulation:2,styles:[],data:{}}),mn=i.V("page-home",f,function(n){return i._21(0,[(n()(),i.Z(0,0,null,null,1,"page-home",[],null,null,null,o,pn)),i.Y(1,49152,null,0,f,[A.a,d.a,fn.a],null,null)],null,null)},{},{},[]),bn=a(127),hn=a(22),gn=a(109),yn=a(111),vn=a(126),jn=a(39),kn=a(115),Cn=a(148),Yn=a(62),Zn=a(49),Pn=a(131),zn=a(78),wn=a(135),On=a(129),An=a(254),Tn=a(128),xn=a(34),Hn=a(116),Fn=a(130),qn=i.W(m,[b.b],function(n){return i._7([i._8(512,i.i,i.S,[[8,[h.a,g.a,y.a,v.a,j.a,k.a,C.a,Y.a,Z.a,R,mn]],[3,i.i],i.s]),i._8(5120,i.r,i._16,[[3,i.r]]),i._8(4608,rn.l,rn.k,[i.r,[2,rn.t]]),i._8(5120,i.b,i._1,[]),i._8(5120,i.p,i._9,[]),i._8(5120,i.q,i._12,[]),i._8(4608,e.c,e.q,[rn.d]),i._8(6144,i.D,null,[e.c]),i._8(4608,e.f,bn.a,[]),i._8(5120,e.d,function(n,l,a,t,u){return[new e.k(n,l),new e.o(a),new e.n(t,u)]},[rn.d,i.u,rn.d,rn.d,e.f]),i._8(4608,e.e,e.e,[e.d,i.u]),i._8(135680,e.m,e.m,[rn.d]),i._8(4608,e.l,e.l,[e.e,e.m]),i._8(6144,i.B,null,[e.l]),i._8(6144,e.p,null,[e.m]),i._8(4608,i.G,i.G,[i.u]),i._8(4608,e.h,e.h,[rn.d]),i._8(4608,e.i,e.i,[rn.d]),i._8(4608,hn.q,hn.q,[]),i._8(4608,hn.d,hn.d,[]),i._8(5120,_.b,_.f,[_.c,_.d]),i._8(5120,s.a,s.c,[_.b]),i._8(4608,gn.a,gn.a,[T.a,x.a]),i._8(4608,yn.a,yn.a,[T.a,x.a]),i._8(4608,vn.a,vn.a,[]),i._8(4608,V.a,V.a,[]),i._8(4608,jn.a,jn.a,[H.a]),i._8(4608,en.a,en.a,[x.a,H.a,i.u,I.a]),i._8(4608,kn.a,kn.a,[T.a,x.a]),i._8(5120,rn.g,Cn.c,[rn.r,[2,rn.a],x.a]),i._8(4608,rn.f,rn.f,[rn.g]),i._8(5120,Yn.b,Yn.d,[T.a,Yn.a]),i._8(5120,B.a,B.b,[T.a,Yn.b,rn.f,Zn.b,i.i]),i._8(4608,Pn.a,Pn.a,[T.a,x.a,B.a]),i._8(4608,zn.a,zn.a,[T.a,x.a]),i._8(4608,wn.a,wn.a,[T.a,x.a,B.a]),i._8(4608,On.a,On.a,[x.a,H.a,I.a,T.a,F.l]),i._8(4608,fn.a,fn.a,[T.a,x.a]),i._8(4608,q.a,q.a,[H.a,x.a]),i._8(4608,c.a,c.a,[]),i._8(4608,r.a,r.a,[]),i._8(4608,d.a,d.a,[s.a]),i._8(512,rn.c,rn.c,[]),i._8(512,i.k,An.a,[]),i._8(256,x.b,{},[]),i._8(1024,Tn.a,Tn.b,[]),i._8(1024,H.a,H.b,[e.b,Tn.a,i.u]),i._8(1024,x.a,x.c,[x.b,H.a]),i._8(512,I.a,I.a,[H.a]),i._8(512,xn.a,xn.a,[]),i._8(512,T.a,T.a,[x.a,H.a,[2,xn.a]]),i._8(512,F.l,F.l,[T.a]),i._8(256,Yn.a,{links:[{loadChildren:"../pages/contact/contact.module.ngfactory#ContactPageModuleNgFactory",name:"ContactPage",segment:"contact",priority:"low",defaultHistory:[]}]},[]),i._8(512,i.h,i.h,[]),i._8(512,Hn.a,Hn.a,[i.h]),i._8(1024,Zn.b,Zn.c,[Hn.a,i.o]),i._8(1024,i.c,function(n,l,a,t,u,o,i,r,c,_,s,d,f){return[e.s(n),Fn.a(l),vn.b(a,t),On.b(u,o,i,r,c),Zn.d(_,s,d,f)]},[[2,i.t],x.a,H.a,I.a,x.a,H.a,I.a,T.a,F.l,x.a,Yn.a,Zn.b,i.u]),i._8(512,i.d,i.d,[[2,i.c]]),i._8(131584,i.f,i.f,[i.u,i.T,i.o,i.k,i.i,i.d]),i._8(512,i.e,i.e,[i.f]),i._8(512,e.a,e.a,[[3,e.a]]),i._8(512,hn.o,hn.o,[]),i._8(512,hn.g,hn.g,[]),i._8(512,hn.m,hn.m,[]),i._8(512,Cn.a,Cn.a,[]),i._8(512,_.a,_.a,[]),i._8(512,s.b,s.b,[]),i._8(512,m,m,[]),i._8(256,_.c,{apiKey:"AIzaSyBoVfae9PX_jgTRgz4Ziwxb149uCO1mRcY",authDomain:"dataaluno-8f953.firebaseapp.com",databaseURL:"https://dataaluno-8f953.firebaseio.com",projectId:"dataaluno-8f953",storageBucket:"dataaluno-8f953.appspot.com",messagingSenderId:"247803071705"},[]),i._8(256,_.d,void 0,[]),i._8(256,b.a,p,[]),i._8(256,rn.a,"/",[])])});Object(i.M)(),Object(e.j)().bootstrapModuleFactory(qn)},69:function(n,l,a){"use strict";a.d(l,"a",function(){return u});a(4);var t=this&&this.__assign||Object.assign||function(n){for(var l,a=1,t=arguments.length;a<t;a++){l=arguments[a];for(var u in l)Object.prototype.hasOwnProperty.call(l,u)&&(n[u]=l[u])}return n},u=function(){function n(n){this.db=n,this.PATH="contacts/"}return n.prototype.getAll=function(){return this.db.list(this.PATH).snapshotChanges().map(function(n){return n.map(function(n){return t({key:n.payload.key},n.payload.val())})})},n.prototype.get=function(n){return this.db.object(this.PATH+n).snapshotChanges().map(function(n){return t({key:n.key},n.payload.val())})},n.prototype.save=function(n){var l=this;return new Promise(function(a,t){n.key?l.db.list(l.PATH).update(n.key,{name:n.name,tel:n.tel}).then(function(){return a()}).catch(function(n){return t(n)}):l.db.list(l.PATH).push({name:n.name,tel:n.tel}).then(function(){return a()})})},n.prototype.remove=function(n){return this.db.list(this.PATH).remove(n)},n}()}},[268]);
+webpackJsonp([1],{
+
+/***/ 132:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angularfire2_database__ = __webpack_require__(186);
+var __assign = (this && this.__assign) || Object.assign || function(t) {
+    for (var s, i = 1, n = arguments.length; i < n; i++) {
+        s = arguments[i];
+        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+            t[p] = s[p];
+    }
+    return t;
+};
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ContactProvider = /** @class */ (function () {
+    function ContactProvider(db) {
+        this.db = db;
+        this.PATH = 'contacts/';
+    }
+    ContactProvider.prototype.getAll = function () {
+        return this.db.list(this.PATH)
+            .snapshotChanges()
+            .map(function (changes) {
+            return changes.map(function (c) { return (__assign({ key: c.payload.key }, c.payload.val())); });
+        });
+    };
+    ContactProvider.prototype.get = function (key) {
+        return this.db.object(this.PATH + key)
+            .snapshotChanges()
+            .map(function (c) {
+            return __assign({ key: c.key }, c.payload.val());
+        });
+    };
+    ContactProvider.prototype.save = function (contact) {
+        var _this = this;
+        return new Promise(function (resolve, reject) {
+            if (contact.key) {
+                _this.db.list(_this.PATH)
+                    .update(contact.key, { name: contact.name, tel: contact.tel })
+                    .then(function () { return resolve(); })
+                    .catch(function (e) { return reject(e); });
+            }
+            else {
+                _this.db.list(_this.PATH)
+                    .push({ name: contact.name, tel: contact.tel })
+                    .then(function () { return resolve(); });
+            }
+        });
+    };
+    ContactProvider.prototype.remove = function (key) {
+        return this.db.list(this.PATH).remove(key);
+    };
+    ContactProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_angularfire2_database__["a" /* AngularFireDatabase */]])
+    ], ContactProvider);
+    return ContactProvider;
+}());
+
+//# sourceMappingURL=contact.js.map
+
+/***/ }),
+
+/***/ 143:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 143;
+
+/***/ }),
+
+/***/ 185:
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"../pages/contact/contact.module": [
+		439,
+		0
+	]
+};
+function webpackAsyncContext(req) {
+	var ids = map[req];
+	if(!ids)
+		return Promise.reject(new Error("Cannot find module '" + req + "'."));
+	return __webpack_require__.e(ids[1]).then(function() {
+		return __webpack_require__(ids[0]);
+	});
+};
+webpackAsyncContext.keys = function webpackAsyncContextKeys() {
+	return Object.keys(map);
+};
+webpackAsyncContext.id = 185;
+module.exports = webpackAsyncContext;
+
+/***/ }),
+
+/***/ 275:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__providers_contact_contact__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(75);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var HomePage = /** @class */ (function () {
+    function HomePage(navCtrl, provider, toast) {
+        this.navCtrl = navCtrl;
+        this.provider = provider;
+        this.toast = toast;
+        this.contacts = this.provider.getAll();
+    }
+    HomePage.prototype.newContact = function () {
+        this.navCtrl.push('ContactPage');
+    };
+    HomePage.prototype.editContact = function (contact) {
+        this.navCtrl.push('ContactPage', { contact: contact });
+    };
+    HomePage.prototype.removeContact = function (key) {
+        var _this = this;
+        this.provider.remove(key)
+            .then(function () {
+            _this.toast.create({ message: 'Contato removido sucesso', duration: 3000 }).present();
+        })
+            .catch(function () {
+            _this.toast.create({ message: 'Erro ao remover o contato', duration: 3000 }).present();
+        });
+    };
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\carlosjunior\Documents\Workspace\ionic\crudfirebase\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>\n      Contatos\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n  <ion-list>\n    <ion-item-sliding *ngFor="let contact of contacts | async">\n\n      <ion-item>\n        <h1>{{ contact.name }}</h1>\n        <p>{{ contact.tel }}</p>\n      </ion-item>\n\n      <ion-item-options side="left">\n        <button ion-button color="secundary" (click)="editContact(contact)">\n          <ion-icon name="create"></ion-icon>\n        </button>\n        <button ion-button color="danger" (click)="removeContact(contact.key)">\n          <ion-icon name="trash"></ion-icon>\n        </button>\n      </ion-item-options>\n\n    </ion-item-sliding>\n  </ion-list>\n\n  <ion-fab button-right>\n    <button ion-fab color="primary" (click)="newContact()">\n      <ion-icon name="add"></ion-icon>\n    </button>\n  </ion-fab>\n</ion-content>\n'/*ion-inline-end:"C:\Users\carlosjunior\Documents\Workspace\ionic\crudfirebase\src\pages\home\home.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_0__providers_contact_contact__["a" /* ContactProvider */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["h" /* ToastController */]])
+    ], HomePage);
+    return HomePage;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 276:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(296);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 296:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(274);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angularfire2__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angularfire2_database__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(438);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_home_home__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_contact_contact__ = __webpack_require__(132);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_home_home__["a" /* HomePage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */], {}, {
+                    links: [
+                        { loadChildren: '../pages/contact/contact.module#ContactPageModule', name: 'ContactPage', segment: 'contact', priority: 'low', defaultHistory: [] }
+                    ]
+                }),
+                __WEBPACK_IMPORTED_MODULE_5_angularfire2__["a" /* AngularFireModule */].initializeApp({
+                    apiKey: "AIzaSyBoVfae9PX_jgTRgz4Ziwxb149uCO1mRcY",
+                    authDomain: "dataaluno-8f953.firebaseapp.com",
+                    databaseURL: "https://dataaluno-8f953.firebaseio.com",
+                    projectId: "dataaluno-8f953",
+                    storageBucket: "dataaluno-8f953.appspot.com",
+                    messagingSenderId: "247803071705"
+                }),
+                __WEBPACK_IMPORTED_MODULE_6_angularfire2_database__["b" /* AngularFireDatabaseModule */]
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_home_home__["a" /* HomePage */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] },
+                __WEBPACK_IMPORTED_MODULE_9__providers_contact_contact__["a" /* ContactProvider */]
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 438:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(274);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(275);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = /** @class */ (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */];
+        platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            statusBar.styleDefault();
+            splashScreen.hide();
+        });
+    }
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\carlosjunior\Documents\Workspace\ionic\crudfirebase\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Users\carlosjunior\Documents\Workspace\ionic\crudfirebase\src\app\app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ })
+
+},[276]);
+//# sourceMappingURL=main.js.map
