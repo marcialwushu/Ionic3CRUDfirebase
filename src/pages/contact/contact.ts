@@ -33,6 +33,17 @@ export class ContactPage {
     this.title = this.navParams.data.contact ? 'Alterando contato' : 'Novo Contato';
   }
 
+  /**
+   * CreateForm with FormBuilder
+   *
+   * with Validors.required : forcing the data to be entered
+   *
+   * @param {any} contact key
+   * @param {any} contact name
+   * @param {any} contact tel
+   *
+   * @returns Object
+    */
   createForm(){
     this.form = this.formBuilder.group({
       key: [this.contact.key],
